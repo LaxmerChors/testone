@@ -1,0 +1,26 @@
+{
+  "uuid": 1,
+  "type": "demo",
+  "title": "还有吗",
+  "agent": {
+    "name": "Zulu",
+    "avatar": "zulu",
+    "agentId": 1,
+    "mcpServers": [],
+    "subAgentList": [
+      {
+        "mcpServers": [],
+        "name": "Zulu"
+      }
+    ]
+  },
+  "model": {
+    "modelId": "auto",
+    "requestType": "COMATE_DEFAULT_MODE",
+    "mode": "NORMAL"
+  },
+  "knowledgeList": [],
+  "prompt": "还有吗",
+  "displayQuery": "还有吗",
+  "status": "done"
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>贪吃蛇 - Snake</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>贪吃蛇</h1>
+
+      <div class="score-panel">
+        <div>分数: <span id="score">0</span></div>
+        <div>速度: <span id="speed">6</span></div>
+      </div>
+
+      <canvas id="game" width="480" height="480" aria-label="Snake game canvas"></canvas>
+
+      <div class="controls">
+        <button id="startBtn">开始 / 重启</button>
+        <button id="pauseBtn">暂停</button>
+        <button id="securityTestBtn">🔒 安全测试</button>
+        <div class="help">方向键或 WASD 控制移动</div>
+      </div>
+
+      <footer class="credit">简单的 HTML5 + JavaScript 贪吃蛇小程序</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
