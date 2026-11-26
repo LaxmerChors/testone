@@ -14,7 +14,8 @@ let dir = {x: 1, y: 0}
 let nextDir = null
 let food = {}
 let score = 0
-let speed = 6 // 初始速度：帧每秒
+const INITIAL_SPEED = 4 // 初始速度：帧每秒
+let speed = INITIAL_SPEED
 let running = false
 let paused = false
 let tickInterval = null
@@ -41,7 +42,7 @@ function reset(){
   dir = {x: 1, y: 0}
   nextDir = null
   score = 0
-  speed = 6
+  speed = INITIAL_SPEED
   running = true
   paused = false
   placeFood()
